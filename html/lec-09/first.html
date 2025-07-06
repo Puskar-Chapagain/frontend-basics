@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- how to attach audio file , video file and youtube video file -->
+    <!-- one way of displaying audio -->
+    <!-- <audio src="./audio.mp3" controls></audio> -->
+    <br>
+    <!-- another way  -->
+     <audio controls>
+        <source src="./audio.mp3">
+        <source src="./alternative-audio.mp3">
+        Songs are not loaded
+     </audio>
+
+
+    <!-- attaching video file -->
+    <br>
+    <!-- one way -->
+    <!-- <video src="./video.mp4" height="300" width="200" controls></video> -->
+
+    <!-- another way -->
+    <video controls height="200" width="150" autoplay muted>
+        <!-- we can add multiple sources for the video -->
+        <source src="./video.mp4" type="video/mp4">
+        video is not played due to error
+    </video>
+
+    <!-- iframe - for attaching youtube videos-->
+     <iframe src="https://www.youtube.com/embed/dne-mlOBufg" frameborder="0"></iframe>
+     <!-- format : https://www.youtube.com/embed/video-id -->
+</body>
+</html>

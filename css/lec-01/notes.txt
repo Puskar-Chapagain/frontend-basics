@@ -1,0 +1,28 @@
+
+Never try to remember the syntax 
+You will remember 
+
+Logic - focus 
+What are the tech that was used ?
+What are the problem that you faced while building the project ?
+
+CSS - Cascading Sytle Sheet
+
+- used for styling our website
+
+font tag was introduced (deprecated-nobody uses it today)
+ 
+3 Ways of Writing CSS
+
+Inline CSS - write styles in tag using style attribute
+- gets applied to only one element
+We have to repeat code for every line we want to put the style too.  || DRY  principle
+
+Internal CSS - use style tag and put all the style inside it
+selector - to select an element or a group of elements
+
+Code Readibility
+
+
+
+External CSS 

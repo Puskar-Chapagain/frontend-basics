@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend> <h1> 
+        Registration Form
+        </h1></legend>
+        form action="" >    
+        <label for="fullname">Fullname: </label>
+        <input type="text" name="fullname" id="fullname" placeholder="enter your name" value="">
+        <br><br>
+        <label for="email">Email:  </label>
+        <input type="email" name="email" id="email" placeholder="enter your email" value="">
+        <br><br>
+        <label for="phone-number">Phone Number: </label>
+        <input type="tel" name="phone-number" id="phone-number" placeholder="enter your number" value="">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="enter your password" value="">
+        <br><br>
+        <label >Gender:</label>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="other">
+        <label for="Other">Other</label>
+        <br><br>
+        <label for="date-of-birth" >Date Of Brth: </label>
+        <input type="date" min="2001-01-01" max="2005-01-01">
+        <br><br>
+        <label for="schoolname">Schoolname: </label>
+        <input type="text" name="schoolname" id="schoolname">
+        <br><br>
+        <label for="select-your-board">Board: </label>
+        <select name="board" id="select-your-board">
+            <option value="" selected disabled>Select Your Board</option>
+            <option value="NEB">NEB</option>
+            <option value="HSEB">HSEB</option>
+        </select>
+        <br><br>
+        <label for="year-of-passing">Year of Passing: </label>
+        <input type="number" id="year-of-passing" name="year-of-passing" min="2020"  max="2025">
+        <br><br>
+        <button>Register</button>
+    </form>
+    </fieldset>
+ 
+</body>
+</html>
