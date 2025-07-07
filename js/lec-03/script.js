@@ -94,6 +94,3 @@ console.log(20%3)
 // +=  x = x + 10 
 
 
-// Comparison Operators 
-
-
