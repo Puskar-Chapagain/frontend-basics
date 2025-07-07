@@ -1,0 +1,17 @@
+Primitive Data Types
+
+Number 
+String 
+Boolean 
+Null 
+Undefined 
+BigInt
+Symbol 
+
+
+Non-Primitive Data Types
+
+Array 
+Objects 
+Functions
+

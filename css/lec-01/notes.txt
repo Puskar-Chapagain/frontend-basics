@@ -25,4 +25,21 @@ Code Readibility
 
 
 
-External CSS 
+External CSS
+- an external .css file is create in this
+- use link tag to link the css file to the html 
+
+This is used the most.
+
+CSS Selector
+
+Element Selector
+Class Selector
+Id Selector
+Attribute Selector
+Universal Selector
+Grouping Selector
+Descendant Selector
+Child Selector
+Id with Class Selector
+
