@@ -15,3 +15,7 @@ Array
 Objects 
 Functions
 
+JS 
+- dynamically typed
+- JIT(Just In Time) complier
+

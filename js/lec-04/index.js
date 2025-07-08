@@ -95,5 +95,8 @@ console.log(20>>2)
 // 20 divided by 2 power 2
 
 
+// ASCII - 256 charcters
+// Unicode - Supports multiple languages ans symbols
 
+console.log(0.1+0.2) // 0.3000000000004 - approximate answer
 
