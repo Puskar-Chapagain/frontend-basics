@@ -71,6 +71,8 @@ console.log(Math.floor(Math.random()*(6-1+1)+1));
 // how ? - Math.random uses system clock + some operation/algo ==> random number generate
 // if someone has access to your system - it can be guessed...so it is not used to generate any sensitive info like OTP
 
+// even when our system is off - system clock is running all the time
+
 // How to generate OTP is completely different topic 
 
 
